@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Charging">
-        <activity android:name=".MainLayoutActivity">
+        <!--<activity android:name=".cityChoice.activity.city_choice"></activity>-->
+        <activity
+            android:name=".cityChoice.activity.city_choice"
+            android:label="city_choice"
+            android:theme="@style/Theme.Charging.NoActionBar" />
+        <activity android:name=".mainActivity.MainLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
